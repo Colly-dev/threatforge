@@ -1,0 +1,9 @@
+title: Suspicious SSH Login
+status: experimental
+logsource:
+    product: linux
+    service: sshd
+detection:
+    selection:
+        message|contains: 'Failed password for root'
+    condition: selection

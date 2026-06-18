@@ -1,0 +1,3 @@
+"""Normalizer"""
+class Normalizer:
+    pass

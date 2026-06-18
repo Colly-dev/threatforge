@@ -1,0 +1,3 @@
+"""Geolocation"""
+class Geolocation:
+    pass
