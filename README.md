@@ -10,6 +10,8 @@
 
 **Cyber Threat Intelligence & IOC Correlation Platform**
 
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg) ![License](https://img.shields.io/badge/License-MIT-green.svg) ![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg) ![Use](https://img.shields.io/badge/Use-Authorized_Only-red.svg)
+
 ## ⚠️ LEGAL DISCLAIMER ⚠️
 ThreatForge is a threat intelligence platform designed for **EDUCATIONAL PURPOSES and AUTHORIZED SECURITY USE ONLY**.
 
