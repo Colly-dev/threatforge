@@ -38,16 +38,29 @@ python threatforge.py --mode collect
 ```
 
 ## Screenshots
-Screenshots will be available in `docs/screenshots/` after running the tool.
+### Terminal Banner
 
-| Screenshot | Description |
-| --- | --- |
-| `banner_startup.png` | ThreatForge banner and legal disclaimer on startup |
-| `collection_in_progress.png` | Live collection with progress spinners |
-| `dashboard_view.png` | Web dashboard view |
-| `intelligence_report.png` | Generated intelligence report preview |
+![ThreatForge Banner and Legal Disclaimer](docs/screenshots/banner_startup.png)
 
-See `docs/reports/sample_intelligence_report.html` for a sample HTML report.
+A professional startup banner for ThreatForge, displaying the tool's name in a distinctive green ASCII art style, accompanied by a clear legal disclaimer. This is the first view users encounter upon launching the application.
+
+### Collection in Progress
+
+![ThreatForge Collection in Progress](docs/screenshots/collection_in_progress.png)
+
+An active view of ThreatForge performing real-time threat intelligence collection. The screenshot illustrates multiple data feeds being processed concurrently, with dynamic progress indicators and status updates, showcasing the tool's operational efficiency.
+
+### Web Dashboard Overview
+
+![ThreatForge Web Dashboard](docs/screenshots/dashboard_view.png)
+
+The ThreatForge web dashboard provides a comprehensive overview of collected threat intelligence. This view features key metrics, a global threat map highlighting IOC origins, and interactive charts visualizing threat activity over time, designed for intuitive security analysis.
+
+### Intelligence Report Sample
+
+![ThreatForge Intelligence Report](docs/screenshots/intelligence_report.png)
+
+A sample of an automatically generated intelligence report from ThreatForge. This report summarizes critical threat data, including top IOCs by severity and MITRE ATT&CK mapping, presented in a clean, analyst-ready HTML format. See `docs/reports/sample_intelligence_report.html` for a full sample.
 
 ## Architecture
 Full architecture documentation: `docs/architecture/architecture.md`
