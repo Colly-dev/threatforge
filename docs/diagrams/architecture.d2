@@ -1,0 +1,34 @@
+direction: right
+
+ThreatForge: {
+  shape: class
+  label: "ThreatForge Platform"
+
+  Collector: {
+    shape: rectangle
+    label: "Data Collectors\n(Public Feeds, NVD, Optional APIs)"
+  }
+
+  CoreEngine: {
+    shape: rectangle
+    label: "Core Engine\n(Feed Manager, Enrichment, Correlation, Reporting)"
+  }
+
+  IntelligenceStore: {
+    shape: rectangle
+    label: "Intelligence Store\n(IOCs, CVEs, MITRE ATT&CK, Threat Actors)"
+  }
+
+  Output: {
+    shape: rectangle
+    label: "Outputs\n(Reports, Dashboard, Detection Rules)"
+  }
+
+  User: { shape: person; label: "Security Analyst" }
+
+  Collector -> CoreEngine: "Processes"
+  CoreEngine -> IntelligenceStore: "Stores & Manages"
+  IntelligenceStore -> CoreEngine: "Queries"
+  CoreEngine -> Output: "Generates"
+  Output -> User: "Interacts with"
+}

@@ -63,6 +63,10 @@ The ThreatForge web dashboard provides a comprehensive overview of collected thr
 A sample of an automatically generated intelligence report from ThreatForge. This report summarizes critical threat data, including top IOCs by severity and MITRE ATT&CK mapping, presented in a clean, analyst-ready HTML format. See `docs/reports/sample_intelligence_report.html` for a full sample.
 
 ## Architecture
+### Architecture Diagram
+
+![ThreatForge Architecture Diagram](docs/diagrams/architecture.png)
+
 Full architecture documentation: `docs/architecture/architecture.md`
 
 ## Demo Video
